@@ -1,0 +1,91 @@
+2024-01-26 17:25:09,875 INFO    StreamThr :1298571 [internal.py:wandb_internal():86] W&B internal server running at pid: 1298571, started at: 2024-01-26 17:25:09.875139
+2024-01-26 17:25:09,878 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status
+2024-01-26 17:25:09,881 INFO    WriterThread:1298571 [datastore.py:open_for_write():85] open: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/run-jvl2j640.wandb
+2024-01-26 17:25:09,884 DEBUG   SenderThread:1298571 [sender.py:send():369] send: header
+2024-01-26 17:25:09,885 DEBUG   SenderThread:1298571 [sender.py:send():369] send: run
+2024-01-26 17:25:10,698 INFO    SenderThread:1298571 [dir_watcher.py:__init__():211] watching files in: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/files
+2024-01-26 17:25:10,698 INFO    SenderThread:1298571 [sender.py:_start_run_threads():1100] run started: jvl2j640 with start time 1706261109.872093
+2024-01-26 17:25:10,698 DEBUG   SenderThread:1298571 [sender.py:send_request():396] send_request: summary_record
+2024-01-26 17:25:10,699 INFO    SenderThread:1298571 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-26 17:25:10,705 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: check_version
+2024-01-26 17:25:10,705 DEBUG   SenderThread:1298571 [sender.py:send_request():396] send_request: check_version
+2024-01-26 17:25:11,701 INFO    Thread-12 :1298571 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/files/wandb-summary.json
+2024-01-26 17:25:13,900 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: run_start
+2024-01-26 17:25:13,920 DEBUG   HandlerThread:1298571 [system_info.py:__init__():31] System info init
+2024-01-26 17:25:13,920 DEBUG   HandlerThread:1298571 [system_info.py:__init__():46] System info init done
+2024-01-26 17:25:13,920 INFO    HandlerThread:1298571 [system_monitor.py:start():181] Starting system monitor
+2024-01-26 17:25:13,921 INFO    SystemMonitor:1298571 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-01-26 17:25:13,921 INFO    HandlerThread:1298571 [system_monitor.py:probe():201] Collecting system info
+2024-01-26 17:25:13,922 INFO    SystemMonitor:1298571 [interfaces.py:start():190] Started cpu monitoring
+2024-01-26 17:25:13,922 INFO    SystemMonitor:1298571 [interfaces.py:start():190] Started disk monitoring
+2024-01-26 17:25:13,924 INFO    SystemMonitor:1298571 [interfaces.py:start():190] Started gpu monitoring
+2024-01-26 17:25:13,925 INFO    SystemMonitor:1298571 [interfaces.py:start():190] Started memory monitoring
+2024-01-26 17:25:13,926 INFO    SystemMonitor:1298571 [interfaces.py:start():190] Started network monitoring
+2024-01-26 17:25:19,053 DEBUG   HandlerThread:1298571 [system_info.py:probe():195] Probing system
+2024-01-26 17:25:19,066 DEBUG   HandlerThread:1298571 [gitlib.py:_init_repo():53] git repository is invalid
+2024-01-26 17:25:19,067 DEBUG   HandlerThread:1298571 [system_info.py:probe():240] Probing system done
+2024-01-26 17:25:19,067 DEBUG   HandlerThread:1298571 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-72-generic-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2024-01-26T09:25:19.053234', 'startedAt': '2024-01-26T09:25:09.858476', 'docker': None, 'cuda': '10.2.300', 'args': (), 'state': 'running', 'program': '/home/gzz/zhoulin/model-sound code/yolov8/train.py', 'host': 'gzz', 'username': 'gzz', 'executable': '/home/gzz/anaconda3/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 1200.570734375, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1200.174, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.42, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.14, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.138, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.513, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.212, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.574, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.398, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.073, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.173, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.612, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.236, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.091, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.254, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.284, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.085, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.166, 'min': 1200.0, 'max': 3400.0}, {'current': 1302.01, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.161, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.221, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.172, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.201, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.183, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.336, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.207, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.243, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.743, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.153, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.326, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.524, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.153, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.082, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.106, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.08, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.208, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.187, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.133, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.136, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.213, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.415, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.493, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.091, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.006, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.148, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.211, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.593, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.481, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.028, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.282, 'min': 1200.0, 'max': 3400.0}, {'current': 1602.534, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.2, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.117, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.083, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.099, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.153, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.107, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.066, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.773, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.227, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.8, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.1, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.187, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.448, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.286, 'min': 1200.0, 'max': 3400.0}], 'disk': {'total': 205.55589294433594, 'used': 51.809024810791016}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}], 'memory': {'total': 125.50442123413086}}
+2024-01-26 17:25:19,068 INFO    HandlerThread:1298571 [system_monitor.py:probe():211] Finished collecting system info
+2024-01-26 17:25:19,068 INFO    HandlerThread:1298571 [system_monitor.py:probe():214] Publishing system info
+2024-01-26 17:25:19,068 DEBUG   HandlerThread:1298571 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-26 17:25:19,070 DEBUG   HandlerThread:1298571 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-26 17:25:19,070 DEBUG   HandlerThread:1298571 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-01-26 17:25:19,704 INFO    Thread-12 :1298571 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/files/requirements.txt
+2024-01-26 17:25:19,705 INFO    Thread-12 :1298571 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/files/conda-environment.yaml
+2024-01-26 17:25:29,927 DEBUG   HandlerThread:1298571 [system_info.py:_save_conda():86] Saving conda packages done
+2024-01-26 17:25:29,929 INFO    HandlerThread:1298571 [system_monitor.py:probe():216] Finished publishing system info
+2024-01-26 17:25:29,941 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:29,941 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:29,941 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:29,941 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:29,943 DEBUG   SenderThread:1298571 [sender.py:send():369] send: files
+2024-01-26 17:25:29,943 INFO    SenderThread:1298571 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2024-01-26 17:25:30,709 INFO    Thread-12 :1298571 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/files/conda-environment.yaml
+2024-01-26 17:25:30,709 INFO    Thread-12 :1298571 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240126_172509-jvl2j640/files/wandb-metadata.json
+2024-01-26 17:25:34,945 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:39,946 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:44,947 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:49,948 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:54,949 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:25:59,950 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:04,952 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:09,953 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:13,927 DEBUG   SystemMonitor:1298571 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-01-26 17:26:13,932 DEBUG   SenderThread:1298571 [sender.py:send():369] send: stats
+2024-01-26 17:26:15,934 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:20,935 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:25,936 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:30,937 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:35,938 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:40,939 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:43,934 DEBUG   SenderThread:1298571 [sender.py:send():369] send: stats
+2024-01-26 17:26:46,937 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:51,938 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:26:56,940 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:01,941 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:06,942 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:11,943 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:13,938 DEBUG   SenderThread:1298571 [sender.py:send():369] send: stats
+2024-01-26 17:27:17,940 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:22,942 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:27,943 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:32,944 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:37,945 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:42,946 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:43,940 DEBUG   SenderThread:1298571 [sender.py:send():369] send: stats
+2024-01-26 17:27:48,944 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:53,945 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:27:58,946 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:03,947 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:08,949 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:13,944 DEBUG   SenderThread:1298571 [sender.py:send():369] send: stats
+2024-01-26 17:28:14,946 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:19,948 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:24,949 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:29,950 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:34,952 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:39,953 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:43,947 DEBUG   SenderThread:1298571 [sender.py:send():369] send: stats
+2024-01-26 17:28:45,948 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:50,950 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report
+2024-01-26 17:28:55,951 DEBUG   HandlerThread:1298571 [handler.py:handle_request():144] handle_request: status_report

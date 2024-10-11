@@ -1,0 +1,310 @@
+2024-01-25 13:44:18,986 INFO    StreamThr :1279570 [internal.py:wandb_internal():86] W&B internal server running at pid: 1279570, started at: 2024-01-25 13:44:18.985482
+2024-01-25 13:44:18,988 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status
+2024-01-25 13:44:18,993 INFO    WriterThread:1279570 [datastore.py:open_for_write():85] open: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/run-l36n5nfo.wandb
+2024-01-25 13:44:18,995 DEBUG   SenderThread:1279570 [sender.py:send():369] send: header
+2024-01-25 13:44:18,995 DEBUG   SenderThread:1279570 [sender.py:send():369] send: run
+2024-01-25 13:44:19,787 INFO    SenderThread:1279570 [dir_watcher.py:__init__():211] watching files in: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files
+2024-01-25 13:44:19,788 INFO    SenderThread:1279570 [sender.py:_start_run_threads():1100] run started: l36n5nfo with start time 1706161458.982719
+2024-01-25 13:44:19,789 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: summary_record
+2024-01-25 13:44:19,789 INFO    SenderThread:1279570 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-25 13:44:19,795 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: check_version
+2024-01-25 13:44:19,795 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: check_version
+2024-01-25 13:44:20,791 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-summary.json
+2024-01-25 13:44:23,972 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: run_start
+2024-01-25 13:44:23,992 DEBUG   HandlerThread:1279570 [system_info.py:__init__():31] System info init
+2024-01-25 13:44:23,992 DEBUG   HandlerThread:1279570 [system_info.py:__init__():46] System info init done
+2024-01-25 13:44:23,992 INFO    HandlerThread:1279570 [system_monitor.py:start():181] Starting system monitor
+2024-01-25 13:44:23,992 INFO    SystemMonitor:1279570 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-01-25 13:44:23,993 INFO    HandlerThread:1279570 [system_monitor.py:probe():201] Collecting system info
+2024-01-25 13:44:23,994 INFO    SystemMonitor:1279570 [interfaces.py:start():190] Started cpu monitoring
+2024-01-25 13:44:23,995 INFO    SystemMonitor:1279570 [interfaces.py:start():190] Started disk monitoring
+2024-01-25 13:44:23,996 INFO    SystemMonitor:1279570 [interfaces.py:start():190] Started gpu monitoring
+2024-01-25 13:44:23,997 INFO    SystemMonitor:1279570 [interfaces.py:start():190] Started memory monitoring
+2024-01-25 13:44:23,998 INFO    SystemMonitor:1279570 [interfaces.py:start():190] Started network monitoring
+2024-01-25 13:44:29,141 DEBUG   HandlerThread:1279570 [system_info.py:probe():195] Probing system
+2024-01-25 13:44:29,155 DEBUG   HandlerThread:1279570 [gitlib.py:_init_repo():53] git repository is invalid
+2024-01-25 13:44:29,155 DEBUG   HandlerThread:1279570 [system_info.py:probe():240] Probing system done
+2024-01-25 13:44:29,156 DEBUG   HandlerThread:1279570 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-72-generic-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2024-01-25T05:44:29.141363', 'startedAt': '2024-01-25T05:44:18.969407', 'docker': None, 'cuda': '10.2.300', 'args': (), 'state': 'running', 'program': '/home/gzz/zhoulin/model-sound code/yolov8/train.py', 'host': 'gzz', 'username': 'gzz', 'executable': '/home/gzz/anaconda3/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 1210.071046875, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1200.342, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.182, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.142, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.126, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.131, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.235, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.06, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.735, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.378, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.154, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.375, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.662, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.859, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.222, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.193, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.574, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.021, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.101, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.086, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.114, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.093, 'min': 1200.0, 'max': 3400.0}, {'current': 1244.701, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.167, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.073, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.144, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.113, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.144, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.045, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.08, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.04, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.446, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.434, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.135, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.264, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.104, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.008, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.026, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.477, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.063, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.017, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.346, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.736, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.374, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.761, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.313, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.785, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.343, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.32, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.094, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.175, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.167, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.101, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.415, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.076, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.085, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.227, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.763, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.914, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.206, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.155, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.054, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.694, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.252, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.371, 'min': 1200.0, 'max': 3400.0}], 'disk': {'total': 205.55589294433594, 'used': 51.807796478271484}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}], 'memory': {'total': 125.50442123413086}}
+2024-01-25 13:44:29,156 INFO    HandlerThread:1279570 [system_monitor.py:probe():211] Finished collecting system info
+2024-01-25 13:44:29,156 INFO    HandlerThread:1279570 [system_monitor.py:probe():214] Publishing system info
+2024-01-25 13:44:29,156 DEBUG   HandlerThread:1279570 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-25 13:44:29,158 DEBUG   HandlerThread:1279570 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-25 13:44:29,158 DEBUG   HandlerThread:1279570 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-01-25 13:44:29,792 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/requirements.txt
+2024-01-25 13:44:29,794 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/conda-environment.yaml
+2024-01-25 13:44:39,987 DEBUG   HandlerThread:1279570 [system_info.py:_save_conda():86] Saving conda packages done
+2024-01-25 13:44:39,990 INFO    HandlerThread:1279570 [system_monitor.py:probe():216] Finished publishing system info
+2024-01-25 13:44:40,002 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:40,002 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 13:44:40,003 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:40,003 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 13:44:40,004 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:40,004 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 13:44:40,004 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:40,005 DEBUG   SenderThread:1279570 [sender.py:send():369] send: files
+2024-01-25 13:44:40,005 INFO    SenderThread:1279570 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2024-01-25 13:44:40,018 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: stop_status
+2024-01-25 13:44:40,019 DEBUG   SenderThread:1279570 [sender.py:send():369] send: telemetry
+2024-01-25 13:44:40,020 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: stop_status
+2024-01-25 13:44:40,797 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/conda-environment.yaml
+2024-01-25 13:44:40,798 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-metadata.json
+2024-01-25 13:44:40,954 INFO    wandb-upload_0:1279570 [upload_job.py:push():133] Uploaded file /tmp/tmpfc89x1mwwandb/2t67vw9f-wandb-metadata.json
+2024-01-25 13:44:42,564 DEBUG   SenderThread:1279570 [sender.py:send():369] send: exit
+2024-01-25 13:44:42,564 INFO    SenderThread:1279570 [sender.py:send_exit():574] handling exit code: 1
+2024-01-25 13:44:42,564 INFO    SenderThread:1279570 [sender.py:send_exit():576] handling runtime: 18
+2024-01-25 13:44:42,570 INFO    SenderThread:1279570 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-25 13:44:42,570 INFO    SenderThread:1279570 [sender.py:send_exit():582] send defer
+2024-01-25 13:44:42,571 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:42,571 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 0
+2024-01-25 13:44:42,572 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:42,572 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 0
+2024-01-25 13:44:42,572 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 1
+2024-01-25 13:44:42,572 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:42,572 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 1
+2024-01-25 13:44:42,573 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:42,573 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 1
+2024-01-25 13:44:42,573 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 2
+2024-01-25 13:44:42,573 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:42,574 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 2
+2024-01-25 13:44:42,574 INFO    HandlerThread:1279570 [system_monitor.py:finish():190] Stopping system monitor
+2024-01-25 13:44:42,575 INFO    HandlerThread:1279570 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-25 13:44:42,575 DEBUG   SystemMonitor:1279570 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-01-25 13:44:42,576 INFO    HandlerThread:1279570 [interfaces.py:finish():202] Joined disk monitor
+2024-01-25 13:44:42,576 DEBUG   SystemMonitor:1279570 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-01-25 13:44:42,577 DEBUG   SystemMonitor:1279570 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-01-25 13:44:43,020 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-summary.json
+2024-01-25 13:44:43,047 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/output.log
+2024-01-25 13:44:43,935 INFO    HandlerThread:1279570 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-25 13:44:43,936 INFO    HandlerThread:1279570 [interfaces.py:finish():202] Joined memory monitor
+2024-01-25 13:44:43,936 INFO    HandlerThread:1279570 [interfaces.py:finish():202] Joined network monitor
+2024-01-25 13:44:43,937 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: poll_exit
+2024-01-25 13:44:43,938 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:43,939 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 2
+2024-01-25 13:44:43,939 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 3
+2024-01-25 13:44:43,939 DEBUG   SenderThread:1279570 [sender.py:send():369] send: stats
+2024-01-25 13:44:43,939 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:43,941 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: poll_exit
+2024-01-25 13:44:43,942 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 3
+2024-01-25 13:44:43,944 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:43,944 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 3
+2024-01-25 13:44:43,944 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 4
+2024-01-25 13:44:43,944 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:43,945 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 4
+2024-01-25 13:44:43,945 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:43,945 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 4
+2024-01-25 13:44:43,945 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 5
+2024-01-25 13:44:43,945 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:43,946 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 5
+2024-01-25 13:44:43,946 DEBUG   SenderThread:1279570 [sender.py:send():369] send: summary
+2024-01-25 13:44:43,947 INFO    SenderThread:1279570 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-25 13:44:43,948 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:43,948 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 5
+2024-01-25 13:44:43,948 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 6
+2024-01-25 13:44:43,948 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:43,948 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 6
+2024-01-25 13:44:43,949 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:43,949 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 6
+2024-01-25 13:44:43,955 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:44,589 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 7
+2024-01-25 13:44:44,589 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:44,590 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 7
+2024-01-25 13:44:44,590 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:44,591 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 7
+2024-01-25 13:44:44,656 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: poll_exit
+2024-01-25 13:44:44,945 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/config.yaml
+2024-01-25 13:44:44,945 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-summary.json
+2024-01-25 13:44:44,946 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/output.log
+2024-01-25 13:44:48,542 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 8
+2024-01-25 13:44:48,543 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: poll_exit
+2024-01-25 13:44:48,543 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:48,544 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 8
+2024-01-25 13:44:48,544 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:48,544 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 8
+2024-01-25 13:44:48,545 INFO    SenderThread:1279570 [job_builder.py:build():240] Attempting to build job artifact
+2024-01-25 13:44:48,545 INFO    SenderThread:1279570 [job_builder.py:build():274] no source found
+2024-01-25 13:44:48,545 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 9
+2024-01-25 13:44:48,546 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:48,546 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 9
+2024-01-25 13:44:48,547 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:48,547 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 9
+2024-01-25 13:44:48,547 INFO    SenderThread:1279570 [dir_watcher.py:finish():359] shutting down directory watcher
+2024-01-25 13:44:48,947 INFO    Thread-12 :1279570 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/output.log
+2024-01-25 13:44:48,948 INFO    SenderThread:1279570 [dir_watcher.py:finish():389] scan: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files
+2024-01-25 13:44:48,949 INFO    SenderThread:1279570 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/requirements.txt requirements.txt
+2024-01-25 13:44:48,949 INFO    SenderThread:1279570 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/config.yaml config.yaml
+2024-01-25 13:44:48,950 INFO    SenderThread:1279570 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-summary.json wandb-summary.json
+2024-01-25 13:44:48,950 INFO    SenderThread:1279570 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/conda-environment.yaml conda-environment.yaml
+2024-01-25 13:44:48,973 INFO    SenderThread:1279570 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-metadata.json wandb-metadata.json
+2024-01-25 13:44:48,973 INFO    SenderThread:1279570 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/output.log output.log
+2024-01-25 13:44:48,981 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 10
+2024-01-25 13:44:48,981 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:48,982 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 10
+2024-01-25 13:44:48,989 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:48,989 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 10
+2024-01-25 13:44:48,990 INFO    SenderThread:1279570 [file_pusher.py:finish():159] shutting down file pusher
+2024-01-25 13:44:49,454 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/wandb-summary.json?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=M6hbgmvZRATKjepyceSlzOSncRsarA9bkQ365Fq%2BvcrrwSgZSymLrSrT4pGTARocidErrgbS7ueRgJbLVFdTM7JJ5jWZuEZ%2FygGBCt9gEdSEkwZUrHfyux0wxxmas%2BuB4s75L9eeDoSweLYGyaCqCZtxnmPceaJzZ46u4NjR%2F%2FF%2BN1%2BTmT0mnSD6%2BxlTfnz%2BcXKxQWu8%2B6DKsJhdwRkO8HR%2BqVUKzLJ3d%2B%2F5aeUjzCeJ6LqKxxRxRhlyoOKgqkplEnTIMsmuNRLFFfOOi%2FJU12tSHGNtf7xu%2BprLBfws0WQ4Lo3DcJdEdkSr530C0PTukATAhN191RxIjwxabpe0fQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:49,454 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '27'}
+2024-01-25 13:44:49,454 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:49,599 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/config.yaml?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZXqfToxMp5YJ2%2B1LxOe6xd%2Btan5xiC42tGF%2FFvGjOa70C6B1SZbcw0BZXxz2NXaYN03X33TVQRS%2Fr6VAjl6TF023i%2FU5EDV6THRU%2BQy%2FEnuamu1A%2Bkx1ic9vj%2BJ8cwo3V%2B1S5UYj8%2BfEcGafMy1FZCdMFEo1%2BlVjdnonmRiQ6TrI2QbaDhR4%2B71kcJ95D5maCq5djCZI1J%2F2zTzyhF4z6BUAL6YXn0VqXgiATz0F8JMVUf3dQX6Ja1hYkcjLrdsZbZY05HkAbzN2gM4SKX%2Btnh8JFh%2BQ28%2BMHhbzDoyiViiM3PJ03cqnlrREKn7uuj1u73npvJLhBkBgrZvprOlIGw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:49,599 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4257'}
+2024-01-25 13:44:49,600 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:49,609 INFO    wandb-upload_0:1279570 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/requirements.txt
+2024-01-25 13:44:49,660 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 13:44:49,720 ERROR   wandb-upload_4:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/output.log?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=jfYXFJmSYQUurekodYbF0ET%2BYUrV6WJWQSL%2Fj5bGJAb%2FysK4y0HXNxke4uwd9VAegQVkJDUx1%2FcMM0%2BHaYwKm%2BkRJC1IalvIpsNhcyxwY6nZB6PPCfYv6caLEXvBLA5KgbSh9d5dv2bS8QuPDvb8rx0yWrKVn9K0SetAq66BMVgfZ15GHI2boRGkckA9YhC%2Fwz4Ldr6CiUSsWF9A9JYYaUpbzAlXiFMz9d6L4PZPxKJjU3HPvF%2FwbwQsPOAEvpJyX4QUiVP5gKpZ8EK5DCbjd8KWnB%2BOuVoepE23CEVPQIp5xKnnIlHbWLzqtQlOMMkNnybl0TG1NmEkzkoOQ6kafg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:49,720 ERROR   wandb-upload_4:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '307559'}
+2024-01-25 13:44:49,720 ERROR   wandb-upload_4:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:49,798 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/conda-environment.yaml?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=I3siaz4YotuLgUl7YjQu03kFaYbUfJ%2FeS3rVeW9Xi2mUUNQYaYWuyoSbB01iJ68XcYaWkL9QLsixoXCtnM9Qzz4H03rJJ6rwQ2MpC6hsyQoqzRnyI2N2o76qulJ68rSVkCU0Hd3syPr0nnCTo2RyVFI0IPoqu1pLWTcEhvQ3CmzoXiy6hhYbaoqPsnIOpfD6gQhTz9cx2xAFPMVSU4bc30U5BLIqoY5xYebqHArkJVxl2DD4Jq5TNZbDYXJMFWAsUxs%2BBwTwCzrNRBbuFwGrzLoBBeDl4K6L5rPltJx%2F6UWK6dnOS1K7QsnNifcf84SlmSZkiHMm9quWofCDG5gCpQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:49,798 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '18076'}
+2024-01-25 13:44:49,798 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:50,825 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/wandb-summary.json?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=M6hbgmvZRATKjepyceSlzOSncRsarA9bkQ365Fq%2BvcrrwSgZSymLrSrT4pGTARocidErrgbS7ueRgJbLVFdTM7JJ5jWZuEZ%2FygGBCt9gEdSEkwZUrHfyux0wxxmas%2BuB4s75L9eeDoSweLYGyaCqCZtxnmPceaJzZ46u4NjR%2F%2FF%2BN1%2BTmT0mnSD6%2BxlTfnz%2BcXKxQWu8%2B6DKsJhdwRkO8HR%2BqVUKzLJ3d%2B%2F5aeUjzCeJ6LqKxxRxRhlyoOKgqkplEnTIMsmuNRLFFfOOi%2FJU12tSHGNtf7xu%2BprLBfws0WQ4Lo3DcJdEdkSr530C0PTukATAhN191RxIjwxabpe0fQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:50,826 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '27'}
+2024-01-25 13:44:50,826 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:50,826 INFO    wandb-upload_2:1279570 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/gzz/anaconda3/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/gzz/anaconda3/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/home/gzz/anaconda3/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/home/gzz/anaconda3/lib/python3.9/ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/home/gzz/anaconda3/lib/python3.9/ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "/home/gzz/anaconda3/lib/python3.9/ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2282, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 602, in put
+    return self.request('PUT', url, data=data, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2311, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2282, in upload_file
+    response = self._upload_file_session.put(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 602, in put
+    return self.request('PUT', url, data=data, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2024-01-25 13:44:50,881 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/config.yaml?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZXqfToxMp5YJ2%2B1LxOe6xd%2Btan5xiC42tGF%2FFvGjOa70C6B1SZbcw0BZXxz2NXaYN03X33TVQRS%2Fr6VAjl6TF023i%2FU5EDV6THRU%2BQy%2FEnuamu1A%2Bkx1ic9vj%2BJ8cwo3V%2B1S5UYj8%2BfEcGafMy1FZCdMFEo1%2BlVjdnonmRiQ6TrI2QbaDhR4%2B71kcJ95D5maCq5djCZI1J%2F2zTzyhF4z6BUAL6YXn0VqXgiATz0F8JMVUf3dQX6Ja1hYkcjLrdsZbZY05HkAbzN2gM4SKX%2Btnh8JFh%2BQ28%2BMHhbzDoyiViiM3PJ03cqnlrREKn7uuj1u73npvJLhBkBgrZvprOlIGw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:50,882 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4257'}
+2024-01-25 13:44:50,882 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:51,084 ERROR   wandb-upload_4:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/output.log?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=jfYXFJmSYQUurekodYbF0ET%2BYUrV6WJWQSL%2Fj5bGJAb%2FysK4y0HXNxke4uwd9VAegQVkJDUx1%2FcMM0%2BHaYwKm%2BkRJC1IalvIpsNhcyxwY6nZB6PPCfYv6caLEXvBLA5KgbSh9d5dv2bS8QuPDvb8rx0yWrKVn9K0SetAq66BMVgfZ15GHI2boRGkckA9YhC%2Fwz4Ldr6CiUSsWF9A9JYYaUpbzAlXiFMz9d6L4PZPxKJjU3HPvF%2FwbwQsPOAEvpJyX4QUiVP5gKpZ8EK5DCbjd8KWnB%2BOuVoepE23CEVPQIp5xKnnIlHbWLzqtQlOMMkNnybl0TG1NmEkzkoOQ6kafg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:51,084 ERROR   wandb-upload_4:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '307559'}
+2024-01-25 13:44:51,084 ERROR   wandb-upload_4:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:51,161 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/conda-environment.yaml?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=I3siaz4YotuLgUl7YjQu03kFaYbUfJ%2FeS3rVeW9Xi2mUUNQYaYWuyoSbB01iJ68XcYaWkL9QLsixoXCtnM9Qzz4H03rJJ6rwQ2MpC6hsyQoqzRnyI2N2o76qulJ68rSVkCU0Hd3syPr0nnCTo2RyVFI0IPoqu1pLWTcEhvQ3CmzoXiy6hhYbaoqPsnIOpfD6gQhTz9cx2xAFPMVSU4bc30U5BLIqoY5xYebqHArkJVxl2DD4Jq5TNZbDYXJMFWAsUxs%2BBwTwCzrNRBbuFwGrzLoBBeDl4K6L5rPltJx%2F6UWK6dnOS1K7QsnNifcf84SlmSZkiHMm9quWofCDG5gCpQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:51,161 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '18076'}
+2024-01-25 13:44:51,161 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:53,305 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/wandb-summary.json?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=M6hbgmvZRATKjepyceSlzOSncRsarA9bkQ365Fq%2BvcrrwSgZSymLrSrT4pGTARocidErrgbS7ueRgJbLVFdTM7JJ5jWZuEZ%2FygGBCt9gEdSEkwZUrHfyux0wxxmas%2BuB4s75L9eeDoSweLYGyaCqCZtxnmPceaJzZ46u4NjR%2F%2FF%2BN1%2BTmT0mnSD6%2BxlTfnz%2BcXKxQWu8%2B6DKsJhdwRkO8HR%2BqVUKzLJ3d%2B%2F5aeUjzCeJ6LqKxxRxRhlyoOKgqkplEnTIMsmuNRLFFfOOi%2FJU12tSHGNtf7xu%2BprLBfws0WQ4Lo3DcJdEdkSr530C0PTukATAhN191RxIjwxabpe0fQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:53,305 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '27'}
+2024-01-25 13:44:53,306 ERROR   wandb-upload_2:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:53,313 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/config.yaml?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ZXqfToxMp5YJ2%2B1LxOe6xd%2Btan5xiC42tGF%2FFvGjOa70C6B1SZbcw0BZXxz2NXaYN03X33TVQRS%2Fr6VAjl6TF023i%2FU5EDV6THRU%2BQy%2FEnuamu1A%2Bkx1ic9vj%2BJ8cwo3V%2B1S5UYj8%2BfEcGafMy1FZCdMFEo1%2BlVjdnonmRiQ6TrI2QbaDhR4%2B71kcJ95D5maCq5djCZI1J%2F2zTzyhF4z6BUAL6YXn0VqXgiATz0F8JMVUf3dQX6Ja1hYkcjLrdsZbZY05HkAbzN2gM4SKX%2Btnh8JFh%2BQ28%2BMHhbzDoyiViiM3PJ03cqnlrREKn7uuj1u73npvJLhBkBgrZvprOlIGw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:53,313 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '4257'}
+2024-01-25 13:44:53,314 ERROR   wandb-upload_1:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:53,757 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2287] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/hubei-un/YOLOv8/l36n5nfo/conda-environment.yaml?Expires=1706247889&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=I3siaz4YotuLgUl7YjQu03kFaYbUfJ%2FeS3rVeW9Xi2mUUNQYaYWuyoSbB01iJ68XcYaWkL9QLsixoXCtnM9Qzz4H03rJJ6rwQ2MpC6hsyQoqzRnyI2N2o76qulJ68rSVkCU0Hd3syPr0nnCTo2RyVFI0IPoqu1pLWTcEhvQ3CmzoXiy6hhYbaoqPsnIOpfD6gQhTz9cx2xAFPMVSU4bc30U5BLIqoY5xYebqHArkJVxl2DD4Jq5TNZbDYXJMFWAsUxs%2BBwTwCzrNRBbuFwGrzLoBBeDl4K6L5rPltJx%2F6UWK6dnOS1K7QsnNifcf84SlmSZkiHMm9quWofCDG5gCpQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2024-01-25 13:44:53,757 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2289] upload_file request headers: {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '18076'}
+2024-01-25 13:44:53,757 ERROR   wandb-upload_3:1279570 [internal_api.py:upload_file():2291] upload_file response body: 
+2024-01-25 13:44:53,991 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:54,039 INFO    wandb-upload_4:1279570 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/output.log
+2024-01-25 13:44:54,663 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 13:44:58,376 INFO    wandb-upload_1:1279570 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/config.yaml
+2024-01-25 13:44:58,707 INFO    wandb-upload_2:1279570 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/wandb-summary.json
+2024-01-25 13:44:58,992 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 13:44:59,076 INFO    wandb-upload_3:1279570 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/files/conda-environment.yaml
+2024-01-25 13:44:59,277 INFO    Thread-11 :1279570 [sender.py:transition_state():602] send defer: 11
+2024-01-25 13:44:59,278 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:59,278 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 11
+2024-01-25 13:44:59,279 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:59,279 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 11
+2024-01-25 13:44:59,279 INFO    SenderThread:1279570 [file_pusher.py:join():164] waiting for file pusher
+2024-01-25 13:44:59,279 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 12
+2024-01-25 13:44:59,280 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:59,280 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 12
+2024-01-25 13:44:59,280 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:59,281 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 12
+2024-01-25 13:44:59,539 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 13
+2024-01-25 13:44:59,540 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:59,540 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 13
+2024-01-25 13:44:59,541 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:59,541 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 13
+2024-01-25 13:44:59,541 INFO    SenderThread:1279570 [sender.py:transition_state():602] send defer: 14
+2024-01-25 13:44:59,543 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 13:44:59,543 INFO    HandlerThread:1279570 [handler.py:handle_request_defer():170] handle defer: 14
+2024-01-25 13:44:59,543 DEBUG   SenderThread:1279570 [sender.py:send():369] send: final
+2024-01-25 13:44:59,544 DEBUG   SenderThread:1279570 [sender.py:send():369] send: footer
+2024-01-25 13:44:59,544 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: defer
+2024-01-25 13:44:59,544 INFO    SenderThread:1279570 [sender.py:send_request_defer():598] handle sender defer: 14
+2024-01-25 13:44:59,545 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: poll_exit
+2024-01-25 13:44:59,546 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: poll_exit
+2024-01-25 13:44:59,547 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: server_info
+2024-01-25 13:44:59,548 DEBUG   SenderThread:1279570 [sender.py:send_request():396] send_request: server_info
+2024-01-25 13:44:59,554 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: get_summary
+2024-01-25 13:44:59,555 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: sampled_history
+2024-01-25 13:45:00,074 INFO    MainThread:1279570 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2024-01-25 13:45:00,074 INFO    MainThread:1279570 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2024-01-25 13:45:00,075 INFO    MainThread:1279570 [wandb_run.py:_footer_sync_info():3423] logging synced files
+2024-01-25 13:45:00,075 DEBUG   HandlerThread:1279570 [handler.py:handle_request():144] handle_request: shutdown
+2024-01-25 13:45:00,076 INFO    HandlerThread:1279570 [handler.py:finish():854] shutting down handler
+2024-01-25 13:45:00,548 INFO    WriterThread:1279570 [datastore.py:close():298] close: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_134418-l36n5nfo/run-l36n5nfo.wandb
+2024-01-25 13:45:01,074 INFO    SenderThread:1279570 [sender.py:finish():1526] shutting down sender
+2024-01-25 13:45:01,074 INFO    SenderThread:1279570 [file_pusher.py:finish():159] shutting down file pusher
+2024-01-25 13:45:01,074 INFO    SenderThread:1279570 [file_pusher.py:join():164] waiting for file pusher

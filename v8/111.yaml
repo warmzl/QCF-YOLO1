@@ -1,0 +1,7 @@
+
+train: /home/gzz/zhoulin/model-sound code/yolov8/mydatas/train.txt # train images (relative to 'path') 128 images
+val: /home/gzz/zhoulin/model-sound code/yolov8/mydatas/val.txt # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names: ['crazing','inclusion','patches', 'pitted_surface', 'scratches','rolled-in_scale']

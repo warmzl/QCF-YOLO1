@@ -1,0 +1,52 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+Downloading https://github.com/ultralytics/assets/releases/download/v8.1.0/yolov8n.pt to 'yolov8n.pt'...
+Traceback (most recent call last):
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/train.py", line 9, in <module>
+    model.train(data='coco128.yaml', epochs=400, imgsz=640)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/model.py", line 389, in train
+    self.trainer.train()
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/trainer.py", line 322, in _do_train
+    self._setup_train(world_size)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/trainer.py", line 266, in _setup_train
+    self.amp = torch.tensor(check_amp(self.model), device=self.device)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/utils/checks.py", line 650, in check_amp
+    assert amp_allclose(YOLO("yolov8n.pt"), im)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/model.py", line 94, in __init__
+    self._load(model, task)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/model.py", line 160, in _load
+    self.model, self.ckpt = attempt_load_one_weight(weights)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/nn/tasks.py", line 700, in attempt_load_one_weight
+    ckpt, weight = torch_safe_load(weight)  # load ckpt
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/nn/tasks.py", line 625, in torch_safe_load
+    file = attempt_download_asset(weight)  # search online if missing locally
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/utils/downloads.py", line 442, in attempt_download_asset
+    safe_download(url=f"{download_url}/{release}/{name}", file=file, min_bytes=1e5, **kwargs)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/utils/downloads.py", line 318, in safe_download
+    check_disk_space(url)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/utils/downloads.py", line 203, in check_disk_space
+    r = requests.head(url)  # response
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/api.py", line 102, in head
+    return request('head', url, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/gzz/anaconda3/lib/python3.9/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)

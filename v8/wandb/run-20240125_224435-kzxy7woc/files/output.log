@@ -1,0 +1,33 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+Traceback (most recent call last):
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/data/base.py", line 119, in get_img_files
+    assert im_files, f"{self.prefix}No images found in {img_path}"
+AssertionError: [34m[1mtrain: [39m[22mNo images found in /home/gzz/zhoulin/model-sound code/yolov8/mydatas/train.txt
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/home/gzz/zhoulin/model-sound code/yolov8/train.py", line 9, in <module>
+    results=model.train(data='111.yaml', epochs=400, imgsz=640)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/model.py", line 389, in train
+    self.trainer.train()
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/trainer.py", line 208, in train
+    self._do_train(world_size)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/trainer.py", line 322, in _do_train
+    self._setup_train(world_size)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/engine/trainer.py", line 286, in _setup_train
+    self.train_loader = self.get_dataloader(self.trainset, batch_size=batch_size, rank=RANK, mode="train")
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/models/yolo/detect/train.py", line 49, in get_dataloader
+    dataset = self.build_dataset(dataset_path, mode, batch_size)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/models/yolo/detect/train.py", line 43, in build_dataset
+    return build_yolo_dataset(self.args, img_path, batch, self.data, mode=mode, rect=mode == "val", stride=gs)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/data/build.py", line 87, in build_yolo_dataset
+    return YOLODataset(
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/data/dataset.py", line 42, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/data/base.py", line 73, in __init__
+    self.im_files = self.get_img_files(self.img_path)
+  File "/home/gzz/zhoulin/model-sound code/yolov8/ultralytics/data/base.py", line 121, in get_img_files
+    raise FileNotFoundError(f"{self.prefix}Error loading data from {img_path}\n{HELP_URL}") from e
+FileNotFoundError: [34m[1mtrain: [39m[22mError loading data from /home/gzz/zhoulin/model-sound code/yolov8/mydatas/train.txt
+See https://docs.ultralytics.com/datasets/detect for dataset formatting guidance.

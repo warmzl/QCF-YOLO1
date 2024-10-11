@@ -1,0 +1,189 @@
+2024-01-25 22:31:44,690 INFO    StreamThr :1287254 [internal.py:wandb_internal():86] W&B internal server running at pid: 1287254, started at: 2024-01-25 22:31:44.689277
+2024-01-25 22:31:44,692 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status
+2024-01-25 22:31:44,697 INFO    WriterThread:1287254 [datastore.py:open_for_write():85] open: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/run-nqwm98hh.wandb
+2024-01-25 22:31:44,698 DEBUG   SenderThread:1287254 [sender.py:send():369] send: header
+2024-01-25 22:31:44,699 DEBUG   SenderThread:1287254 [sender.py:send():369] send: run
+2024-01-25 22:31:45,508 INFO    SenderThread:1287254 [dir_watcher.py:__init__():211] watching files in: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files
+2024-01-25 22:31:45,508 INFO    SenderThread:1287254 [sender.py:_start_run_threads():1100] run started: nqwm98hh with start time 1706193104.687338
+2024-01-25 22:31:45,517 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: summary_record
+2024-01-25 22:31:45,517 INFO    SenderThread:1287254 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-25 22:31:45,524 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: check_version
+2024-01-25 22:31:45,525 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: check_version
+2024-01-25 22:31:46,511 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-summary.json
+2024-01-25 22:31:46,582 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: run_start
+2024-01-25 22:31:46,601 DEBUG   HandlerThread:1287254 [system_info.py:__init__():31] System info init
+2024-01-25 22:31:46,601 DEBUG   HandlerThread:1287254 [system_info.py:__init__():46] System info init done
+2024-01-25 22:31:46,601 INFO    HandlerThread:1287254 [system_monitor.py:start():181] Starting system monitor
+2024-01-25 22:31:46,602 INFO    SystemMonitor:1287254 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-01-25 22:31:46,603 INFO    HandlerThread:1287254 [system_monitor.py:probe():201] Collecting system info
+2024-01-25 22:31:46,603 INFO    SystemMonitor:1287254 [interfaces.py:start():190] Started cpu monitoring
+2024-01-25 22:31:46,604 INFO    SystemMonitor:1287254 [interfaces.py:start():190] Started disk monitoring
+2024-01-25 22:31:46,606 INFO    SystemMonitor:1287254 [interfaces.py:start():190] Started gpu monitoring
+2024-01-25 22:31:46,606 INFO    SystemMonitor:1287254 [interfaces.py:start():190] Started memory monitoring
+2024-01-25 22:31:46,608 INFO    SystemMonitor:1287254 [interfaces.py:start():190] Started network monitoring
+2024-01-25 22:31:51,732 DEBUG   HandlerThread:1287254 [system_info.py:probe():195] Probing system
+2024-01-25 22:31:51,746 DEBUG   HandlerThread:1287254 [gitlib.py:_init_repo():53] git repository is invalid
+2024-01-25 22:31:51,747 DEBUG   HandlerThread:1287254 [system_info.py:probe():240] Probing system done
+2024-01-25 22:31:51,747 DEBUG   HandlerThread:1287254 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-72-generic-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2024-01-25T14:31:51.733035', 'startedAt': '2024-01-25T14:31:44.672890', 'docker': None, 'cuda': '10.2.300', 'args': (), 'state': 'running', 'program': '/home/gzz/zhoulin/model-sound code/yolov8/train.py', 'host': 'gzz', 'username': 'gzz', 'executable': '/home/gzz/anaconda3/bin/python', 'cpu_count': 32, 'cpu_count_logical': 64, 'cpu_freq': {'current': 1202.3712187500005, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1200.302, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.629, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.591, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.14, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.307, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.039, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.082, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.357, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.295, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.076, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.32, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.042, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.12, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.221, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.498, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.426, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.103, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.086, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.176, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.131, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.087, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.11, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.781, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.048, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.278, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.038, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.237, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.266, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.568, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.227, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.304, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.173, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.207, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.448, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.567, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.948, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.347, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.394, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.152, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.109, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.478, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.265, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.5, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.275, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.68, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.267, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.043, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.65, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.183, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.39, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.074, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.301, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.224, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.06, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.272, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.18, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.37, 'min': 1200.0, 'max': 3400.0}, {'current': 1199.953, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.165, 'min': 1200.0, 'max': 3400.0}, {'current': 1370.348, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.079, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.219, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.098, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.066, 'min': 1200.0, 'max': 3400.0}], 'disk': {'total': 205.55589294433594, 'used': 51.807212829589844}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}], 'memory': {'total': 125.50442123413086}}
+2024-01-25 22:31:51,747 INFO    HandlerThread:1287254 [system_monitor.py:probe():211] Finished collecting system info
+2024-01-25 22:31:51,748 INFO    HandlerThread:1287254 [system_monitor.py:probe():214] Publishing system info
+2024-01-25 22:31:51,748 DEBUG   HandlerThread:1287254 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-01-25 22:31:51,749 DEBUG   HandlerThread:1287254 [system_info.py:_save_pip():67] Saving pip packages done
+2024-01-25 22:31:51,750 DEBUG   HandlerThread:1287254 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-01-25 22:31:52,512 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/conda-environment.yaml
+2024-01-25 22:31:52,513 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/requirements.txt
+2024-01-25 22:32:02,412 DEBUG   HandlerThread:1287254 [system_info.py:_save_conda():86] Saving conda packages done
+2024-01-25 22:32:02,414 INFO    HandlerThread:1287254 [system_monitor.py:probe():216] Finished publishing system info
+2024-01-25 22:32:02,427 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 22:32:02,427 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 22:32:02,428 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 22:32:02,428 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 22:32:02,428 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 22:32:02,428 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 22:32:02,429 DEBUG   SenderThread:1287254 [sender.py:send():369] send: files
+2024-01-25 22:32:02,429 INFO    SenderThread:1287254 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2024-01-25 22:32:02,438 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: stop_status
+2024-01-25 22:32:02,438 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: stop_status
+2024-01-25 22:32:02,516 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/conda-environment.yaml
+2024-01-25 22:32:02,517 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-metadata.json
+2024-01-25 22:32:02,902 DEBUG   SenderThread:1287254 [sender.py:send():369] send: telemetry
+2024-01-25 22:32:03,737 INFO    wandb-upload_0:1287254 [upload_job.py:push():133] Uploaded file /tmp/tmpdxpec7cmwandb/ttcc9mrv-wandb-metadata.json
+2024-01-25 22:32:04,517 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_created():272] file/dir created: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/output.log
+2024-01-25 22:32:04,932 DEBUG   SenderThread:1287254 [sender.py:send():369] send: exit
+2024-01-25 22:32:04,932 INFO    SenderThread:1287254 [sender.py:send_exit():574] handling exit code: 1
+2024-01-25 22:32:04,932 INFO    SenderThread:1287254 [sender.py:send_exit():576] handling runtime: 18
+2024-01-25 22:32:04,937 INFO    SenderThread:1287254 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-25 22:32:04,937 INFO    SenderThread:1287254 [sender.py:send_exit():582] send defer
+2024-01-25 22:32:04,938 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:04,938 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 0
+2024-01-25 22:32:04,939 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:04,939 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 0
+2024-01-25 22:32:04,939 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 1
+2024-01-25 22:32:04,939 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:04,939 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 1
+2024-01-25 22:32:04,940 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:04,940 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 1
+2024-01-25 22:32:04,940 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 2
+2024-01-25 22:32:04,940 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:04,940 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 2
+2024-01-25 22:32:04,940 INFO    HandlerThread:1287254 [system_monitor.py:finish():190] Stopping system monitor
+2024-01-25 22:32:04,941 DEBUG   SystemMonitor:1287254 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-01-25 22:32:04,942 INFO    HandlerThread:1287254 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-25 22:32:04,942 DEBUG   SystemMonitor:1287254 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-01-25 22:32:04,943 INFO    HandlerThread:1287254 [interfaces.py:finish():202] Joined disk monitor
+2024-01-25 22:32:04,943 DEBUG   SystemMonitor:1287254 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-01-25 22:32:05,625 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-summary.json
+2024-01-25 22:32:06,204 INFO    HandlerThread:1287254 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-25 22:32:06,205 INFO    HandlerThread:1287254 [interfaces.py:finish():202] Joined memory monitor
+2024-01-25 22:32:06,205 INFO    HandlerThread:1287254 [interfaces.py:finish():202] Joined network monitor
+2024-01-25 22:32:06,205 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: poll_exit
+2024-01-25 22:32:06,206 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 22:32:06,207 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:06,207 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 2
+2024-01-25 22:32:06,207 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 3
+2024-01-25 22:32:06,207 DEBUG   SenderThread:1287254 [sender.py:send():369] send: stats
+2024-01-25 22:32:06,208 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:06,209 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: poll_exit
+2024-01-25 22:32:06,209 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 3
+2024-01-25 22:32:06,210 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:06,210 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 3
+2024-01-25 22:32:06,210 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 4
+2024-01-25 22:32:06,210 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:06,210 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 4
+2024-01-25 22:32:06,211 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:06,211 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 4
+2024-01-25 22:32:06,211 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 5
+2024-01-25 22:32:06,211 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:06,212 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 5
+2024-01-25 22:32:06,212 DEBUG   SenderThread:1287254 [sender.py:send():369] send: summary
+2024-01-25 22:32:06,213 INFO    SenderThread:1287254 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-01-25 22:32:06,213 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:06,213 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 5
+2024-01-25 22:32:06,213 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 6
+2024-01-25 22:32:06,214 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:06,214 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 6
+2024-01-25 22:32:06,214 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:06,214 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 6
+2024-01-25 22:32:06,220 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 22:32:06,934 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/output.log
+2024-01-25 22:32:06,934 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 7
+2024-01-25 22:32:06,934 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-summary.json
+2024-01-25 22:32:06,934 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:06,935 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 7
+2024-01-25 22:32:06,935 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:06,935 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 7
+2024-01-25 22:32:06,936 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: poll_exit
+2024-01-25 22:32:07,934 INFO    Thread-12 :1287254 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/config.yaml
+2024-01-25 22:32:10,895 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 8
+2024-01-25 22:32:10,895 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: poll_exit
+2024-01-25 22:32:10,895 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:10,896 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 8
+2024-01-25 22:32:10,897 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:10,897 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 8
+2024-01-25 22:32:10,897 INFO    SenderThread:1287254 [job_builder.py:build():240] Attempting to build job artifact
+2024-01-25 22:32:10,897 INFO    SenderThread:1287254 [job_builder.py:build():274] no source found
+2024-01-25 22:32:10,898 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 9
+2024-01-25 22:32:10,898 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:10,898 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 9
+2024-01-25 22:32:10,899 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:10,899 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 9
+2024-01-25 22:32:10,899 INFO    SenderThread:1287254 [dir_watcher.py:finish():359] shutting down directory watcher
+2024-01-25 22:32:10,936 INFO    SenderThread:1287254 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/output.log
+2024-01-25 22:32:10,937 INFO    SenderThread:1287254 [dir_watcher.py:finish():389] scan: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files
+2024-01-25 22:32:10,937 INFO    SenderThread:1287254 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/requirements.txt requirements.txt
+2024-01-25 22:32:10,937 INFO    SenderThread:1287254 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/config.yaml config.yaml
+2024-01-25 22:32:10,938 INFO    SenderThread:1287254 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-summary.json wandb-summary.json
+2024-01-25 22:32:10,946 INFO    SenderThread:1287254 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/conda-environment.yaml conda-environment.yaml
+2024-01-25 22:32:10,947 INFO    SenderThread:1287254 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-metadata.json wandb-metadata.json
+2024-01-25 22:32:10,947 INFO    SenderThread:1287254 [dir_watcher.py:finish():403] scan save: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/output.log output.log
+2024-01-25 22:32:10,960 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 10
+2024-01-25 22:32:10,968 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:10,975 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 10
+2024-01-25 22:32:10,975 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:10,975 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 10
+2024-01-25 22:32:10,976 INFO    SenderThread:1287254 [file_pusher.py:finish():159] shutting down file pusher
+2024-01-25 22:32:11,658 INFO    wandb-upload_0:1287254 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/requirements.txt
+2024-01-25 22:32:11,915 INFO    wandb-upload_1:1287254 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/config.yaml
+2024-01-25 22:32:11,947 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: keepalive
+2024-01-25 22:32:12,033 INFO    wandb-upload_3:1287254 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/conda-environment.yaml
+2024-01-25 22:32:12,049 INFO    wandb-upload_2:1287254 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/wandb-summary.json
+2024-01-25 22:32:12,611 INFO    wandb-upload_4:1287254 [upload_job.py:push():133] Uploaded file /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/files/output.log
+2024-01-25 22:32:12,812 INFO    Thread-11 :1287254 [sender.py:transition_state():602] send defer: 11
+2024-01-25 22:32:12,812 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:12,813 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 11
+2024-01-25 22:32:12,813 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:12,814 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 11
+2024-01-25 22:32:12,814 INFO    SenderThread:1287254 [file_pusher.py:join():164] waiting for file pusher
+2024-01-25 22:32:12,814 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 12
+2024-01-25 22:32:12,814 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:12,814 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 12
+2024-01-25 22:32:12,815 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:12,815 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 12
+2024-01-25 22:32:15,087 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 13
+2024-01-25 22:32:15,087 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:15,087 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 13
+2024-01-25 22:32:15,088 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:15,088 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 13
+2024-01-25 22:32:15,088 INFO    SenderThread:1287254 [sender.py:transition_state():602] send defer: 14
+2024-01-25 22:32:15,089 DEBUG   SenderThread:1287254 [sender.py:send():369] send: final
+2024-01-25 22:32:15,089 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: defer
+2024-01-25 22:32:15,089 DEBUG   SenderThread:1287254 [sender.py:send():369] send: footer
+2024-01-25 22:32:15,090 INFO    HandlerThread:1287254 [handler.py:handle_request_defer():170] handle defer: 14
+2024-01-25 22:32:15,090 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: defer
+2024-01-25 22:32:15,090 INFO    SenderThread:1287254 [sender.py:send_request_defer():598] handle sender defer: 14
+2024-01-25 22:32:15,091 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: poll_exit
+2024-01-25 22:32:15,092 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: poll_exit
+2024-01-25 22:32:15,093 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: server_info
+2024-01-25 22:32:15,093 DEBUG   SenderThread:1287254 [sender.py:send_request():396] send_request: server_info
+2024-01-25 22:32:15,099 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: get_summary
+2024-01-25 22:32:15,100 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: sampled_history
+2024-01-25 22:32:16,061 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: status_report
+2024-01-25 22:32:16,061 INFO    MainThread:1287254 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2024-01-25 22:32:16,061 INFO    MainThread:1287254 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2024-01-25 22:32:16,062 INFO    MainThread:1287254 [wandb_run.py:_footer_sync_info():3423] logging synced files
+2024-01-25 22:32:16,062 DEBUG   HandlerThread:1287254 [handler.py:handle_request():144] handle_request: shutdown
+2024-01-25 22:32:16,063 INFO    HandlerThread:1287254 [handler.py:finish():854] shutting down handler
+2024-01-25 22:32:17,060 INFO    SenderThread:1287254 [sender.py:finish():1526] shutting down sender
+2024-01-25 22:32:17,061 INFO    SenderThread:1287254 [file_pusher.py:finish():159] shutting down file pusher
+2024-01-25 22:32:17,061 INFO    SenderThread:1287254 [file_pusher.py:join():164] waiting for file pusher
+2024-01-25 22:32:17,062 INFO    WriterThread:1287254 [datastore.py:close():298] close: /home/gzz/zhoulin/model-sound code/yolov8/ultralytics/cfg/models/v8/wandb/run-20240125_223144-nqwm98hh/run-nqwm98hh.wandb
