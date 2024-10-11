@@ -1,0 +1,38 @@
+<annotation>
+	<folder>img_g</folder>
+	<filename>IMG20231223152506_noisy_blurred_2.jpg</filename>
+	<path>F:\zl\img_g\IMG20231223152506_noisy_blurred_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>666</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bump</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>168</xmin>
+			<ymin>145</ymin>
+			<xmax>216</xmax>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>joint line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>141</xmin>
+			<ymin>223</ymin>
+			<xmax>151</xmax>
+			<ymax>269</ymax>
+		</bndbox>
+	</object>
+</annotation>
