@@ -1,0 +1,38 @@
+<annotation>
+	<folder>img_g</folder>
+	<filename>IMG20231223151405_noisy_blurred_1_z2.jpg</filename>
+	<path>F:\zl\img_g\IMG20231223151405_noisy_blurred_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>666</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>joint line</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>125</xmin>
+			<ymin>324</ymin>
+			<xmax>161</xmax>
+			<ymax>374</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white mark</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>122</xmin>
+			<ymin>293</ymin>
+			<xmax>143</xmax>
+			<ymax>317</ymax>
+		</bndbox>
+	</object>
+</annotation>

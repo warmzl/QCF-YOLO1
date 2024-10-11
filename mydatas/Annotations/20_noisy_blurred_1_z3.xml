@@ -1,0 +1,38 @@
+<annotation>
+	<folder>img_both</folder>
+	<filename>20_noisy_blurred_1_z3.jpg</filename>
+	<path>F:\zl\img_both\20_noisy_blurred_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>666</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>craze</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>359</xmin>
+			<ymin>161</ymin>
+			<xmax>401</xmax>
+			<ymax>190</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white mark</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>341</xmin>
+			<ymin>159</ymin>
+			<xmax>362</xmax>
+			<ymax>182</ymax>
+		</bndbox>
+	</object>
+</annotation>

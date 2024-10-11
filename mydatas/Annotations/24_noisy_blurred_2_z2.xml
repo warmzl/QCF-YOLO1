@@ -1,0 +1,26 @@
+<annotation>
+	<folder>img_both</folder>
+	<filename>24_noisy_blurred_2_z2.jpg</filename>
+	<path>F:\zl\img_both\24_noisy_blurred_2.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>666</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>off-centered</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>379</xmin>
+			<ymin>200</ymin>
+			<xmax>442</xmax>
+			<ymax>262</ymax>
+		</bndbox>
+	</object>
+</annotation>
